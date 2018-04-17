@@ -1,1 +1,1 @@
-# cdn
+# Suzunone CDN PROXY
