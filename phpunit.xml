@@ -24,6 +24,12 @@
         </whitelist>
     </filter>
     <php>
-        <env name="ENV" value="testing" />
+        <env name="APP_ENV" value="testing" />
     </php>
+
+    <logging>
+        <log type="coverage-text" target="./covers/coverage" showUncoveredFiles="true" showOnlySummary="false"/>
+        <log type="coverage-html" target="./covers/iwau/ics"/>
+        <log type="testdox-text" target="php://stdout"/>
+    </logging>
 </phpunit>
